@@ -30,9 +30,9 @@ Focus areas include Second-Level Address Translation (EPT/NPT) memory introspect
 ### 🛠 Tech Stack & Tools
 
 - **Languages**: `C` (C99/C11), `C++` (C++17/C++20), `Assembly` (x86_64 MASM/NASM), `Rust` (`no_std` kernel environment), `Python` (Tooling/IDA scripts), `PowerShell`
-- **Platforms & APIs**: Windows Driver Kit (WDK), Win32 API, Native API (`Nt`/`Zw`), Linux Kernel API, UEFI EDK-II
+- **Platforms & APIs**: Windows Driver Kit (WDK), Win32 API, Native API (`Nt`/`Zw`), Linux Kernel API, UEFI EDK-II, USB Host Shield 2.0
 - **Debugging & Tools**: WinDbg (Kernel/User), IDA Pro, Ghidra, x64dbg, QEMU/KVM, VMware Workstation, Sysinternals Suite, Process Hacker / System Informer
-- **Build Systems**: Visual Studio MSBuild, CMake, Make, vcpkg, NASM
+- **Build Systems**: Visual Studio MSBuild, CMake, Make, vcpkg, NASM, Arduino IDE
 
 ---
 
@@ -40,6 +40,7 @@ Focus areas include Second-Level Address Translation (EPT/NPT) memory introspect
 
 - **[hyper-reV](https://github.com/adamvalves/hyper-reV)** — Hypervisor-based memory introspection and kernel reverse engineering framework leveraging Microsoft Hyper-V (Intel EPT & AMD NPT SLAT code hooking, UEFI pre-boot hijack, hypercalls via CPUID, usermode kernel debugging CLI).
 - **[easyanticheat-kernel-driver-re](https://github.com/adamvalves/easyanticheat-kernel-driver-re)** — Technical reverse engineering breakdown of EasyAntiCheat kernel driver internals (Import obfuscation decryption, stack unwinding verification, TPM 2.0 hardware attestation, and minifilter I/O monitoring).
+- **[arduino-usb-hid-passthrough](https://github.com/adamvalves/arduino-usb-hid-passthrough)** — Embedded C++ firmware for Arduino & MAX3421E USB Host Shield 2.0 implementing USB HID mouse passthrough and CDC serial movement control.
 
 ---
 
@@ -50,6 +51,7 @@ Focus areas include Second-Level Address Translation (EPT/NPT) memory introspect
 | **Kernel & OS** | Windows Kernel Internals, KMDF, WDM, Linux LKMs, Paging, Virtual Memory Management, IRQLs |
 | **Virtualization** | Intel VT-x, AMD-V, EPT / NPT Shadow Paging, Hyper-V VMM Detours, SLAT Cache Synchronization (NMI) |
 | **Reverse Engineering** | IDA Pro, Ghidra, WinDbg, Assembly x86_64, Obfuscation Analysis, Kernel Telemetry Bypass Analysis |
+| **Embedded & Hardware** | USB HID Protocol, MAX3421E SPI USB Host Shield 2.0, USB CDC Serial, Arduino C++ |
 | **Languages** | C, C++, x86_64 Assembly, Rust (`no_std`), Python |
 | **Tooling & Environments**| WDK, EDK2 UEFI, Visual Studio, VisualUefi, NASM, CMake, Sysinternals |
 
