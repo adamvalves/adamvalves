@@ -6,6 +6,8 @@ Focus areas include Second-Level Address Translation (EPT/NPT) memory introspect
 
 ---
 
+### 🔬 Technical Specializations
+
 ```
   +----------------------------------------------------------------------+
   |                   KERNEL & SYSTEMS ARCHITECTURE                      |
@@ -25,6 +27,8 @@ Focus areas include Second-Level Address Translation (EPT/NPT) memory introspect
 
 ---
 
+### 🛠 Tech Stack & Tools
+
 - **Languages**: `C` (C99/C11), `C++` (C++17/C++20), `Assembly` (x86_64 MASM/NASM), `Rust` (`no_std` kernel environment), `Python` (Tooling/IDA scripts), `PowerShell`
 - **Platforms & APIs**: Windows Driver Kit (WDK), Win32 API, Native API (`Nt`/`Zw`), Linux Kernel API, UEFI EDK-II
 - **Debugging & Tools**: WinDbg (Kernel/User), IDA Pro, Ghidra, x64dbg, QEMU/KVM, VMware Workstation, Sysinternals Suite, Process Hacker / System Informer
@@ -32,9 +36,14 @@ Focus areas include Second-Level Address Translation (EPT/NPT) memory introspect
 
 ---
 
-- **[hyper-reV](https://github.com/kamranamd/hyper-reV)** — Hypervisor-based memory introspection and kernel reverse engineering framework leveraging Microsoft Hyper-V (Intel EPT & AMD NPT SLAT code hooking, UEFI pre-boot hijack, hypercalls via CPUID, usermode kernel debugging CLI).
+### 🚀 Highlighted Repositories
+
+- **[hyper-reV](https://github.com/adamvalves/hyper-reV)** — Hypervisor-based memory introspection and kernel reverse engineering framework leveraging Microsoft Hyper-V (Intel EPT & AMD NPT SLAT code hooking, UEFI pre-boot hijack, hypercalls via CPUID, usermode kernel debugging CLI).
+- **[easyanticheat-kernel-driver-re](https://github.com/adamvalves/easyanticheat-kernel-driver-re)** — Technical reverse engineering breakdown of EasyAntiCheat kernel driver internals (Import obfuscation decryption, stack unwinding verification, TPM 2.0 hardware attestation, and minifilter I/O monitoring).
 
 ---
+
+### 📌 Core Technical Skillset Summary
 
 | Category | Technologies & Concepts |
 | :--- | :--- |
@@ -45,3 +54,7 @@ Focus areas include Second-Level Address Translation (EPT/NPT) memory introspect
 | **Tooling & Environments**| WDK, EDK2 UEFI, Visual Studio, VisualUefi, NASM, CMake, Sysinternals |
 
 ---
+
+<div align="center">
+  <sub>Discreet Low-Level Systems & Kernel Research • Windows & Linux</sub>
+</div>
