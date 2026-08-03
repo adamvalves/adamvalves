@@ -1,12 +1,8 @@
-# Hi, I'm Adam 👋
-
 Systems Programmer & Kernel Engineer with 10+ years of experience specializing in **OS Internals**, **Windows/Linux Kernel Driver Development**, **Hypervisor Architectures (x86_64 virtualization)**, and **Low-Level Security / Reverse Engineering**.
 
 Focus areas include Second-Level Address Translation (EPT/NPT) memory introspection, custom VMM development, driver-level memory manipulation, and analyzing complex anti-cheat/EDR internal architecture.
 
 ---
-
-### 🔬 Technical Specializations
 
 ```
   +----------------------------------------------------------------------+
@@ -36,16 +32,12 @@ Focus areas include Second-Level Address Translation (EPT/NPT) memory introspect
 
 ---
 
-### 🚀 Highlighted Repositories
-
 - **[hyper-reV](https://github.com/adamvalves/hyper-reV)** — Hypervisor-based memory introspection and kernel reverse engineering framework leveraging Microsoft Hyper-V (Intel EPT & AMD NPT SLAT code hooking, UEFI pre-boot hijack, hypercalls via CPUID, usermode kernel debugging CLI).
 - **[easyanticheat-kernel-driver-re](https://github.com/adamvalves/easyanticheat-kernel-driver-re)** — Technical reverse engineering breakdown of EasyAntiCheat kernel driver internals (Import obfuscation decryption, stack unwinding verification, TPM 2.0 hardware attestation, and minifilter I/O monitoring).
 - **[ModuleSpoof](https://github.com/adamvalves/ModuleSpoof)** — Proof-of-concept C++ library for spoofing in-memory DLL locations by trapping Win32 module resolution APIs and redirecting execution to manually mapped memory, paired with a honeypot trap guard.
 - **[arduino-usb-hid-passthrough](https://github.com/adamvalves/arduino-usb-hid-passthrough)** — Embedded C++ firmware for Arduino & MAX3421E USB Host Shield 2.0 implementing USB HID mouse passthrough and CDC serial movement control.
 
 ---
-
-### 📌 Core Technical Skillset Summary
 
 | Category | Technologies & Concepts |
 | :--- | :--- |
@@ -56,8 +48,3 @@ Focus areas include Second-Level Address Translation (EPT/NPT) memory introspect
 | **Languages** | C, C++, x86_64 Assembly, Rust (`no_std`), Python |
 | **Tooling & Environments**| WDK, EDK2 UEFI, Visual Studio, VisualUefi, NASM, CMake, Sysinternals |
 
----
-
-<div align="center">
-  <sub>Discreet Low-Level Systems & Kernel Research • Windows & Linux</sub>
-</div>
