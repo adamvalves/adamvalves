@@ -57,6 +57,14 @@ Focus areas include Second-Level Address Translation (EPT/NPT) memory introspect
 | **Embedded & Hardware** | USB HID Protocol, MAX3421E SPI USB Host Shield 2.0, USB CDC Serial, Arduino C++ |
 | **Languages** | C, C++, x86_64 Assembly, Rust (`no_std`), Python |
 | **Tooling & Environments**| WDK, EDK2 UEFI, Visual Studio, VisualUefi, NASM, CMake, Sysinternals |
+---
+
+### 📊 GitHub Activity & Metrics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=adamvalves&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adamvalves&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
+</div>
 
 ---
 
