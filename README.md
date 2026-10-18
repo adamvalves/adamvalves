@@ -38,7 +38,6 @@ Focus areas include Second-Level Address Translation (EPT/NPT) memory introspect
 
 ### Highlighted Repositories
 
-- **[hyper-reV](https://github.com/adamvalves/hyper-reV)** — Hypervisor-based memory introspection and kernel reverse engineering framework leveraging Microsoft Hyper-V (Intel EPT & AMD NPT SLAT code hooking, UEFI pre-boot hijack, hypercalls via CPUID, usermode kernel debugging CLI).
 - **[tpm-mmio-hv](https://github.com/adamvalves/tpm-mmio-hv)** — Low-level Intel VT-x EPT framework for trapping, emulating, and dynamically modifying TPM 2.0 MMIO register transactions (CRB/TIS) and `TPM_CC_READ_PUBLIC` responses.
 - **[secureboot-state-emulation](https://github.com/adamvalves/secureboot-state-emulation)** — Multi-surface UEFI Secure Boot state emulation framework in Windows kernel (Synchronizing registry state, KUSER_SHARED_DATA alias, SystemSecureBootInformation class 145 kernel global, and MDL-backed NtQuerySystemEnvironmentValueEx table hooks).
 - **[easyanticheat-kernel-driver-re](https://github.com/adamvalves/easyanticheat-kernel-driver-re)** — Technical reverse engineering breakdown of EasyAntiCheat kernel driver internals (Import obfuscation decryption, stack unwinding verification, TPM 2.0 hardware attestation, and minifilter I/O monitoring).
@@ -64,10 +63,4 @@ Focus areas include Second-Level Address Translation (EPT/NPT) memory introspect
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=adamvalves&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adamvalves&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
-</div>
-
----
-
-<div align="center">
-  <sub>Discreet Low-Level Systems & Kernel Research • Windows & Linux</sub>
 </div>
